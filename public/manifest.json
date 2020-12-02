@@ -1,0 +1,23 @@
+{
+  "short_name": "FYEO",
+  "name": "FYEO Chrome Extension",
+  "description": "FYEO Chrome Extension to manage your credentials with high security.",
+  "browser_action": {
+    "default_title": "FYEO",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "fyeo.png",
+    "24": "fyeo.png",
+    "32": "fyeo.png",
+    "128": "fyeo.png",
+    "512": "fyeo.png"
+  },
+  "permissions": [
+    "tabs", 
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self' 'sha256-B+Qe/KNUDtGDd/m1g5ycAq1DgpLs9ubKmYTlOHBogC8='; object-src 'self'",
+  "manifest_version": 2,
+  "version": "1.0.0"
+}
